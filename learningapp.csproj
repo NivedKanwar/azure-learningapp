@@ -4,18 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
   </ItemGroup>
-<configuration>
-  <system.webServer>
-    <defaultDocument>
-      <files>
-        <add value="index.cshtml" />
-      </files>
-    </defaultDocument>
-  </system.webServer>
-</configuration>
 </Project>
